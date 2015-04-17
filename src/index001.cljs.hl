@@ -1,0 +1,14 @@
+(page "index.html"
+  (:require
+    [tailrecursion.hoplon.reload :refer [reload-all]]))
+
+(reload-all 1000)
+
+(html
+  (head)
+  (body
+    (h1 "javascrip.info/tutorial/hello-world")
+    (p "Header...")
+    (js/alert "Hello, World!")
+    (js/alert "I am JavaScript!")
+    (p "Footer...")))
