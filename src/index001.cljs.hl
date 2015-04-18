@@ -1,18 +1,14 @@
 (page "index001.html"
   (:require
+    [jstest.exports :as ex]
     [tailrecursion.hoplon.reload :refer [reload-all]]))
 
 (reload-all 1000)
 
-(defn ^:export stra []
-  (let [a "Empty spaces - what are we living for? \
-  Abandoned places - I guess we know the score... \
-  On and on! \
-  Does anybody know what we are looking for?"] a))
 (html
   (head (title "Variables and Statements"))
   (body
     (h1 "javascrip.info/tutorial/variables-and-statements")
     (p "Header... " (a :css {:color "black"} :href "http://localhost:8000/index.html" :target "_parent" "Previous Page"))
-    (js/alert (this.stra()))
+    (js/alert (ex/stra()))
     (p "Footer... " (a :css {:color "black"} :href "http://localhost:8000/index001.html" :target "_parent" "Next Page"))))
