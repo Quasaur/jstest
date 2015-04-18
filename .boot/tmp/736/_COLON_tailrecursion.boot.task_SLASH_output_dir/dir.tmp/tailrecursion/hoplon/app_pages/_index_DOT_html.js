@@ -1,0 +1,20 @@
+// Compiled by ClojureScript 0.0-2234
+goog.provide('tailrecursion.hoplon.app_pages._index_DOT_html');
+goog.require('cljs.core');
+goog.require('tailrecursion.hoplon.reload');
+goog.require('tailrecursion.javelin');
+goog.require('tailrecursion.hoplon');
+goog.require('tailrecursion.javelin');
+goog.require('tailrecursion.hoplon');
+goog.require('tailrecursion.hoplon.reload');
+tailrecursion.hoplon.app_pages._index_DOT_html.hoploninit = (function hoploninit(){tailrecursion.hoplon.reload.reload_all.call(null,1000);
+tailrecursion.hoplon.html.call(null,tailrecursion.hoplon.html_head.call(null,cljs.core.PersistentArrayMap.EMPTY,(function (){var meta = tailrecursion.hoplon.html_meta;return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [tailrecursion.hoplon.link.call(null,new cljs.core.Keyword(null,"rel","rel",1014017035),"stylesheet",new cljs.core.Keyword(null,"type","type",1017479852),"text/css",new cljs.core.Keyword(null,"href","href",1017115293),(window["_hoplon_main_css"]))], null);
+})()),tailrecursion.hoplon.html_body.call(null,cljs.core.PersistentArrayMap.EMPTY,(function (){var G__11928 = tailrecursion.hoplon.h1.call(null,"javascript.info/tutorial/hello-world");return G__11928;
+})(),(function (){var G__11929 = tailrecursion.hoplon.p.call(null,"Header...");return G__11929;
+})(),(function (){var G__11930 = alert("Hello, World!");return G__11930;
+})(),(function (){var G__11931 = alert("I am JavaScript!");return G__11931;
+})(),(function (){var G__11933 = tailrecursion.hoplon.a.call(null,new cljs.core.Keyword(null,"css","css",1014003061),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1108746965),"black"], null),new cljs.core.Keyword(null,"href","href",1017115293),"http://localhost:8000/index001.html",new cljs.core.Keyword(null,"target","target",4427965699),"_parent","Next Page");var G__11932 = tailrecursion.hoplon.p.call(null,"Footer... ",G__11933);return G__11932;
+})()));
+return tailrecursion.hoplon.init.call(null);
+});
+goog.exportSymbol('tailrecursion.hoplon.app_pages._index_DOT_html.hoploninit', tailrecursion.hoplon.app_pages._index_DOT_html.hoploninit);

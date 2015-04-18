@@ -5,10 +5,10 @@
 (reload-all 1000)
 
 (html
-  (head)
+  (head (title "Hello, World!"))
   (body
-    (h1 "javascrip.info/tutorial/hello-world")
+    (h1 "javascript.info/tutorial/hello-world")
     (p "Header...")
-    ; (js/alert "Hello, World!")
-    ; (js/alert "I am JavaScript!")
-    (p "Footer... " (a :href "#/index001.html" :target "_parent" "Next Page"))))
+    (js/alert "Hello, World!")
+    (js/alert "I am JavaScript!")
+    (p "Footer... " (a :css {:color "black"} :href "http://localhost:8000/index001.html" :target "_parent" "Next Page"))))
