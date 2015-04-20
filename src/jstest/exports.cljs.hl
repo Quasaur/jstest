@@ -1,7 +1,4 @@
 (ns jstest.exports)
 
 (defn ^:export stra []
-  (let [a "Empty spaces - what are we living for? \
-  Abandoned places - I guess we know the score... \
-  On and on! \
-  Does anybody know what we are looking for?"] a))
+  (let [a "Empty spaces - what are we living for? Abandoned places - I guess we know the score... On and on! Does anybody know what we are looking for?"] a))

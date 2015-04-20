@@ -10,5 +10,5 @@
   (body
     (h1 "javascrip.info/tutorial/variables-and-statements")
     (p "Header... " (a :css {:color "black"} :href "http://localhost:8000/index.html" :target "_parent" "Previous Page"))
-    (js/alert (ex/stra()))
+    (js/alert (ex/stra))
     (p "Footer... " (a :css {:color "black"} :href "http://localhost:8000/index001.html" :target "_parent" "Next Page"))))
